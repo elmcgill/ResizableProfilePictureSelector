@@ -1,0 +1,10 @@
+.image-input {
+    width: 75%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
