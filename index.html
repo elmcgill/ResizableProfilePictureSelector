@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <div class="image-wrapper" id="wrapper">
+                <img src="square.png" id="image" class="pfp" />
+            </div>
+        </div>
+    </div>
+
+    <input
+        type="range"
+        min="0"
+        max="200"
+        value="0"
+        id="slider"
+        class="slider"
+    />
+    
+    <button id="img-btn">Do something with image</button>
+
+    <canvas class="image-dl" id="image-canvas"></canvas>
+    
+      <script src="./index.js"></script>
+</body>
+</html>

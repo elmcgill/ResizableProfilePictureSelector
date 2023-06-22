@@ -1,0 +1,48 @@
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-container {
+    box-sizing: border-box;
+    width: 600px;
+    height: 600px;
+    background:
+        linear-gradient(rgba(211,211,211,0.5), rgba(211,211,211,0.5)) 66px 534px / 468px 66px no-repeat no-repeat, /* Bottom */
+        linear-gradient(rgba(211,211,211,0.5), rgba(211,211,211,0.5)) 66px 0px / 468px 66px no-repeat no-repeat, /* Top */
+        linear-gradient(rgba(211,211,211,0.5), rgba(211,211,211,0.5)) 0px 0px / 66px 600px no-repeat no-repeat, /* Left */
+        linear-gradient(rgba(211,211,211,0.5), rgba(211,211,211,0.5)) 534px 0px / 66px 600px no-repeat no-repeat, /* Right */
+        linear-gradient(rgba(69,255,144,0), rgba(69,255,144,0)) 0px 0px / 600px 600px no-repeat no-repeat; /* Background */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrapper {
+    box-sizing: border-box;
+    height: 468px;
+    width: 468px;
+    border: 4px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    user-select: none;
+}
+
+.pfp {
+    box-sizing: border-box;
+    z-index: -1;
+    user-select: none;
+}
+
+.image-dl{
+    border: 2px solid black;
+    width: 468px;
+    height: 468px;
+}
